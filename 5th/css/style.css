@@ -1,0 +1,147 @@
+/*================================================================================
+
+style.css
+Css für die 5th ohio hp
+
+===========================================================================*/
+
+html {
+    height: 100%;
+}
+
+
+/* hintergrund bild */
+body {
+    background-image: url(hintergrund.png);
+} /*hintergrund ende*/
+
+
+/* hp überschriften */
+.site-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-header h2 {
+    text-align: center;
+} /*überschriften ende*/
+
+
+/* navigation */
+.site-nav ul {
+    display: flex;
+    justify-content: center;
+    background: rgba( 0, 0, 0, 0.4);
+    padding: 0;
+    margin: 0;
+}
+
+.site-nav li {
+    list-style: none;
+}
+
+.site-nav a {
+    display: block;
+    text-decoration: none;
+    background: rgba(15, 15, 15, 0.4);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    background: rgba(60, 60, 60, 0.4);
+    color: white;
+} /*navigation ende*/
+
+/*banner*/
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    object-fit: contain;
+    width: 100%;
+}/*banner ende*/
+
+/*spiele*/
+.spiele {
+    text-align: center;
+}
+
+.hauptspiele {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hauptspiele ul {
+    display: flex;
+    justify-content: center;
+    background: rgba( 0, 0, 0, 0.4);
+    padding: 0;
+    margin: 0;
+}
+
+.hauptspiele li {
+    list-style: none;
+}
+
+.hauptspiele a {
+    display: block;
+    text-decoration: none;
+    background: rgba(15, 15, 15, 0.4);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.hauptspiele a:hover,
+.hauptspiele a:focus {
+    background: rgba(60, 60, 60, 0.4);
+    color: white;
+}
+
+.weitere-spiele {
+    text-align: center;
+}/*spiele ende*/
+
+/*kontakt*/
+.kontakt {
+    text-align: center;
+}/*kontakt ende*/
+
+
+/*ueber uns*/
+.ueber-uns {
+    text-align: center;
+}/*ueber uns ende*/
+
+
+/*impressum*/
+.impressum {
+    text-align: center;
+}/*impressum ende*/
+
+
+/*footer*/
+.site-footer {
+    display: flex;
+    justify-content: center;
+    background: rgba( 0, 0, 0, 0.4);
+    padding: 0;
+    margin: 0;
+}
+
+.site-footer a {
+    display: block;
+    text-decoration: none;
+    background: rgba(15, 15, 15, 0.4);
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+.site-footer a:hover,
+.site-footer a:focus {
+    background: rgba(60, 60, 60, 0.4);
+    color: white;
+} /* footer ende*/
